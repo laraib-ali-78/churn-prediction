@@ -1,9 +1,10 @@
 # Customer Churn Prediction & Explainability Platform
 
-[![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io)
+[![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://laraib-ali-78-churn-prediction.streamlit.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![Code Style: Clean](https://img.shields.io/badge/code%20style-scikit--learn-orange.svg)](https://scikit-learn.org/)
+[![Repo](https://img.shields.io/badge/GitHub-churn--prediction-blue?logo=github)](https://github.com/laraib-ali-78/churn-prediction)
 
 > End-to-end data science machine learning system to predict telecom customer attrition, interpret individual risk drivers using SHAP TreeExplainer, and deliver real-time single and batch scoring via a Streamlit web application.
 
@@ -131,7 +132,7 @@ churn-prediction/
 
 ### 1. Clone & Set Up Virtual Environment
 ```bash
-git clone https://github.com/<your-username>/churn-prediction.git
+git clone https://github.com/laraib-ali-78/churn-prediction.git
 cd churn-prediction
 
 python -m venv .venv
