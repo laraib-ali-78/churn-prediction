@@ -1,0 +1,26 @@
+{
+    "model_name": "RandomForest",
+    "pipeline_stages": [
+        "prep",
+        "clf"
+    ],
+    "hyperparameters": {
+        "clf__n_estimators": "300",
+        "clf__min_samples_split": "10",
+        "clf__min_samples_leaf": "2",
+        "clf__max_depth": "8"
+    },
+    "optimal_threshold": 0.52,
+    "training_date": "2026-10-23 19:25:16",
+    "library_versions": {
+        "scikit-learn": "1.9.1",
+        "xgboost": "xgboost.sklearn",
+        "joblib": "1.6.0"
+    },
+    "validation_metrics": {
+        "cv_mean_roc_auc": 0.8473,
+        "cv_f1_optimal_threshold": 0.6392,
+        "precision_at_optimal_threshold": 0.5402,
+        "recall_at_optimal_threshold": 0.7825
+    }
+}
